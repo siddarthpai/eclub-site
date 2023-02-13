@@ -1,9 +1,24 @@
-
-
-a{
-    color: #E5E5CB;
+@font-face {
+  font-family: 'Arvo';
+  src: url('./fonts/Arvo-Regular.ttf');
 }
 
+a{
+  color: #E5E5CB;
+}
+
+.topnavlinks{
+  color: #E5E5CB;
+  font-family: "Arvo";
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.topnavlinks:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
 
 #favicon
 {
@@ -14,20 +29,21 @@ a{
 
 #root
 {
-    background-color: #D5CEA3;
-    color: #1A120B;
-    width:100%;
-    height:100%;
-    font-family: Merriweather;
-    text-align: center;
-    text-size-adjust: auto;
+  background-color: #E5E5CB;
+  color: #1A120B;
+  font-family: "Arvo";
+  text-align: center;
+  text-size-adjust: auto;
+}
+
+#topnavelements
+{
+  font-family: "Arvo";
+  font-size: larger ;
+  
 }
   
-  @font-face {
-    font-family: 'Merriweather';
-    src: url('./fonts/Merriweather-Regular.ttf');
-  }
-  
+
   
   #logo 
   {
@@ -37,7 +53,7 @@ a{
   
   #topnav
   {
-    font-family: Merriweather;
+    font-family: "Arvo";
     text-align: right;
     text-size-adjust: auto;
     background-color: #3C2A21;
@@ -65,29 +81,22 @@ a{
     bottom: 0;
     font-size: larger;
   }
+
+  #contactelements
+  {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2px;
+  }
   
   
   hr.solid {
     border-top: 3px solid #bbb;
   }
 
-  #visit{
-    float: left;
-    width: 25%;
-    background-color: #3C2A21;
-  }
-  #queries {
-    float: left;
-    width: 25%;
-    background-color: #3C2A21;
-  }
   
-  #followus
-  {
-    float:left;
-    width: 25%;
-    background-color: #3C2A21;  
-  }
+
   
   
   
