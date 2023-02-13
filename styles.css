@@ -5,10 +5,11 @@ a{
 }
 
 
-#logo
+#favicon
 {
     width: 200px;
     height: 200px;
+    float: left;
 }
 
 #root
@@ -40,6 +41,7 @@ a{
     text-align: right;
     text-size-adjust: auto;
     background-color: #3C2A21;
+    height: 200px;
     
   }
   
